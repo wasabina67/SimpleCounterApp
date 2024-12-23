@@ -1,1 +1,2 @@
 # SimpleCounterApp
+Simple counter app
