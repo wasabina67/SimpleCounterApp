@@ -37,16 +37,17 @@
             // 
             this.labelCounter.AutoSize = true;
             this.labelCounter.Font = new System.Drawing.Font("MS UI Gothic", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelCounter.Location = new System.Drawing.Point(0, 0);
+            this.labelCounter.Location = new System.Drawing.Point(68, 32);
             this.labelCounter.Name = "labelCounter";
-            this.labelCounter.Size = new System.Drawing.Size(91, 97);
+            this.labelCounter.Size = new System.Drawing.Size(140, 97);
             this.labelCounter.TabIndex = 0;
-            this.labelCounter.Text = "0";
+            this.labelCounter.Text = "99";
+            this.labelCounter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("MS UI Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.button1.Location = new System.Drawing.Point(12, 134);
+            this.button1.Location = new System.Drawing.Point(214, 57);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(50, 50);
             this.button1.TabIndex = 1;
@@ -56,7 +57,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("MS UI Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.button2.Location = new System.Drawing.Point(47, 314);
+            this.button2.Location = new System.Drawing.Point(12, 57);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(50, 50);
             this.button2.TabIndex = 2;
