@@ -22,6 +22,8 @@ namespace SimpleCounterApp
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Text = "SimpleCounterApp";
+
+            labelCounter.Text = "00";
         }
     }
 }
