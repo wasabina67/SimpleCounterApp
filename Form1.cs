@@ -25,5 +25,15 @@ namespace SimpleCounterApp
 
             labelCounter.Text = "00";
         }
+
+        private void buttonUp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDown_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
