@@ -16,5 +16,12 @@ namespace SimpleCounterApp
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Text = "SimpleCounterApp";
+        }
     }
 }
