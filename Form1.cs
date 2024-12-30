@@ -5,6 +5,8 @@ namespace SimpleCounterApp
 {
     public partial class Form1 : Form
     {
+        private int counter = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -16,17 +18,25 @@ namespace SimpleCounterApp
             this.MaximizeBox = false;
             this.Text = "SimpleCounterApp";
 
-            labelCounter.Text = "00";
+            labelCounter.Text = counter.ToString("D2");
         }
 
         private void buttonUp_Click(object sender, EventArgs e)
         {
-
+            if (counter < 99)
+            {
+                counter++;
+                labelCounter.Text = counter.ToString("D2");
+            }
         }
 
         private void buttonDown_Click(object sender, EventArgs e)
         {
-
+            if (counter > 0)
+            {
+                counter--;
+                labelCounter.Text = counter.ToString("D2");
+            }
         }
     }
 }
