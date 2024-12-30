@@ -37,7 +37,7 @@
             // 
             this.labelCounter.AutoSize = true;
             this.labelCounter.Font = new System.Drawing.Font("MS UI Gothic", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelCounter.Location = new System.Drawing.Point(68, 32);
+            this.labelCounter.Location = new System.Drawing.Point(68, 85);
             this.labelCounter.Name = "labelCounter";
             this.labelCounter.Size = new System.Drawing.Size(140, 97);
             this.labelCounter.TabIndex = 0;
@@ -47,7 +47,7 @@
             // buttonUp
             // 
             this.buttonUp.Font = new System.Drawing.Font("MS UI Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.buttonUp.Location = new System.Drawing.Point(214, 57);
+            this.buttonUp.Location = new System.Drawing.Point(214, 111);
             this.buttonUp.Name = "buttonUp";
             this.buttonUp.Size = new System.Drawing.Size(50, 50);
             this.buttonUp.TabIndex = 1;
@@ -57,7 +57,7 @@
             // buttonDown
             // 
             this.buttonDown.Font = new System.Drawing.Font("MS UI Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.buttonDown.Location = new System.Drawing.Point(12, 57);
+            this.buttonDown.Location = new System.Drawing.Point(12, 111);
             this.buttonDown.Name = "buttonDown";
             this.buttonDown.Size = new System.Drawing.Size(50, 50);
             this.buttonDown.TabIndex = 2;
